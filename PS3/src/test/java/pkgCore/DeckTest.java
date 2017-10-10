@@ -10,7 +10,7 @@ public class DeckTest {
 	public void TestEmptyDeck() {
 		//TODO: Build a deck, draw until you get a DeckException
 	}
-	
+	//
 	@Test
 	public void TestDrawSuit() {
 		//TODO: Build a deck, test the Draw(eSuit) method
