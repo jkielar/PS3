@@ -1,8 +1,7 @@
 package pkgException;
 
-import pkgCore.Deck;
 
-public class DeckException extends Exception {
+public class DeckException<Deck>   {
 
 	private Deck d;
 

@@ -13,15 +13,18 @@ public class Deck {
 	public Deck() {
 		for (eSuit eSuit : eSuit.values()) {
 			for (eRank eRank : eRank.values()) {
-				cardsInDeck.add(new Card(eSuit, eRank));
+				cardsInDeck.add(new Card(eSuit, eRank)); 
 			}
 		}
 		Collections.shuffle(cardsInDeck);
 	}
 
-	//TODO: Fix the Draw method so it throws an exception if the deck is empty
-	public Card Draw() {
-		return cardsInDeck.remove(0);
+	public Card Draw(cardsInDeck) {
+		for (int cardsInDeck[i] = 0; i < 4; i++)
+			System.out.print(cardsInDeck[i]);
+			if (Deck < 1)
+				System.out.println("deck is empty");
+				return cardsInDeck.remove(0);
 	}
 	
 	//TODO: Write an overloaded Draw method to Draw a card of a given eSuit
